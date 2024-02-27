@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello world</title>
+</head>
+<body>
+ <header>
+    <h1>welcome to my learning page</h1>
+    <p>my paragraph</p>
+ </header>  
+    
+    <!--this is my navigation bar--->
+
+    <nav>
+    <ul>
+        <li>
+            <a href="#section1">section 1</a>
+            <a href="#section2">section 2</a>
+            <a href="#section3">section 3</a>
+        </li>
+    </ul>
+    </nav>
+    
+    <!--The main section-->
+    <main>
+        <section id="section1">
+            <h2>Intoduction to HTML <HTML</h2>
+            <p>HTML is the standard markup language for creating web pages.</p>
+            <!--HTML icon/ logo-->
+            <img src="https://newsandstory.com/stories/21062184742201828485/21062184742201828485.png
+            "height="500" width="500" alt="HTML5 Logo"/>
+            <ul>
+                <li>HTML stand for Hper Text Markup Language</li>
+                <li>HTML describes the structure of the Web pages using markup</li>
+                <li>HTML elements are the building blocks of HTML pages</li>
+            </ul>
+        </section>
+        
+        
+        <section id="section2">
+            <h2>Basic HTML Tags</h2>
+            <ol>
+                <li><strong>&lt;h1&gt</strong>to <strong>&lt;h6&gt</strong> -HTML headings</li>
+                <li><strong>&lt;p&gt;</strong> - Paragraph </li>
+                <li><strong>&lt;a&gt;</strong> - Link </li>
+                <li><strong>&lt;img&gt;</strong> - Images</li>
+                <li><strong>&lt;ul&gt;</strong>/<strong>&lt;ol&gt;</strong> - List </li>
+            </ol>
+        </section>
+        
+        <section id="section3">
+            <h2>Forms and tables</h2>
+            <p>Forms and tables are essential for data collection and presentation.</p>
+
+            <!--This is Forms -->
+            <form action="/submit_form " method="post">
+                <label for="name" >Name:</label>
+                <input type="text" id="name" name="name" ><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="number">Cellphone Number:</label>
+                <input type="tel" id="cellpone" name="cellphone">
+                <input type="submit" value="Submit">
+            </form>
+
+            <!--This is a table-->
+            <table border="1">
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>R10 000</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>R12 000</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!--This is our footer section -->
+        <footer>
+            <p> Contact us, we are developers.</p>
+        </footer>
+    </body>
+</html>
